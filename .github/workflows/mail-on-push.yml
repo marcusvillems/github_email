@@ -26,5 +26,4 @@ jobs:
           body: |
             Repository: ${{github.repository}}
             Committer: ${{github.event.pusher.name}}
-            Commit Message: ${{github.event.head_commit.message}}
-            test
+            Commit Message: ${{github.event.head_commit.message}}s
